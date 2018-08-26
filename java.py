@@ -1,19 +1,14 @@
-import java.util.Scanner;
-public class SumofGivenIntegers {
-	public static void main(String[] args) {
-		Scanner in=new Scanner(System.in);
-		System.out.println("Input :");
-		int N=in.nextInt();
-		int K=in.nextInt();
-		int sum=0;
-		int a[]=new int[N];
-		for (int i = 0; i < a.length; i++) {
-			a[i]=in.nextInt();
-		}
-		for(int i=0;i<K;i++)
+int main(void)
+{
+	// your code goes here
+	int full,half,i,sum=0;
+	scanf("%d%d",&full,&half);
+	
+		for(full=1;full<=half;full++)
 		{
-			sum=sum+a[i];
+			sum=sum+full;
+		
 		}
-		System.out.println("Output :");
-		System.out.println(sum);		
-	}
+		printf("%d",sum);
+	return 0;
+}
