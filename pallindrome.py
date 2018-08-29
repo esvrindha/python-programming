@@ -1,0 +1,11 @@
+vrin=int(input(""))
+vamp=vrin
+rev=0
+while(vrin>0):
+    dig=vrin%10
+    rev=rev*10+dig
+    vrin=vrin//10
+if(vamp==rev):
+    print("yes")
+else:
+    print("no")
