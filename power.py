@@ -1,5 +1,6 @@
-def power(vrin,vamp):
-    print(vrin**vamp)
-vrin=input()
-vamp=input()
-power(vrin,vamp)
+def main():
+   a=int(input(""))
+   b=int(input(""))
+   print(a**b)
+if __name__ == '__main__':
+    main()
