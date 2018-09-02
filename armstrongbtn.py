@@ -1,5 +1,5 @@
 vrin = int(input(""))
-vamp = inp(input(""))
+vamp = int(input(""))
 
 for n in range(vrin,vamp+1):
   sum = 0
