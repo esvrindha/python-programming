@@ -1,5 +1,5 @@
-vrin=int(input(""))
+moni=int(input(""))
 vamp=int(input(""))
-for i in range(vrin+1,vamp):
+for i in range(moni+1,vamp):
   if(i%2 == 0):
     print(i)
