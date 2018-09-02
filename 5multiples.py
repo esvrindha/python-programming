@@ -1,3 +1,3 @@
-kal=int(input(""))
+vrin=int(input(""))
 for i in range(1,6):
-  print(kal * i)
+  print(vrin * i)
