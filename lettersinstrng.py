@@ -10,6 +10,6 @@ def main():
 
 			c=c+1
 
-	print('No of numerics in a string is :%d'%c)
+	print('%d'%c)
 
 main()
