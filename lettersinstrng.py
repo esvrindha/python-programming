@@ -1,11 +1,15 @@
-string=raw_input("")
-char=0
-word=1
-for i in string:
-      char=char+1
-      if(i==' '):
-            word=word+1
-print("")
-print(word)
-print("")
-print(char)
+def main():
+
+	n=input()
+
+	c=0
+
+	for i in n:
+
+		if i.isalpha() :
+
+			c=c+1
+
+	print('No of numerics in a string is :%d'%c)
+
+main()
