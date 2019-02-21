@@ -1,3 +1,3 @@
-s='vrin'
-k=9
+s=raw_input(" ")
+k=input(" ")
 print(k*s)
