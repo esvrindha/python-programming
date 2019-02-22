@@ -1,22 +1,21 @@
 i=int(raw_input(""))
 if(i==1):
-  print("one")
+  print("One")
 if(i==2):
-  print("two")
+  print("Two")
 if(i==3):
-  print("three")
+  print("Three")
 if(i==4):
-  print("four")
+  print("Four")
 if(i==5):
-  print("five")
+  print("Five")
 if(i==6):
-  print("six")
+  print("Six")
 if(i==7):
-  print("seven")
+  print("Seven")
 if(i==8):
-  print("eight")
+  print("Eight")
 if(i==9):
-  print("nine")
+  print("Nine")
 if(i==10):
-  print("ten")
-
+  print("Ten")
