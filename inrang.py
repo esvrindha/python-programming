@@ -1,5 +1,5 @@
-i=input()
+i=input( )
 if i in range(1,11):
-    print("yes")
+  print("yes")
 else:
-    print("no")
+  print("no")
