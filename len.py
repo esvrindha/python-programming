@@ -1,3 +1,3 @@
-i=raw_input(" ")
+i=raw_input("")
 s=len(i)
 print(s)
