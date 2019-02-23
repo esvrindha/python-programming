@@ -1,5 +1,5 @@
 i=int(raw_input(""))
-if (i/2)==0:
+if (i%2)==0:
   print(i)
 else:
   print(i-1)
