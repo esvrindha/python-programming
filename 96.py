@@ -4,5 +4,6 @@ e=v*d
 r=2*d
 i=n/2
 h=r+e
-p=i*h
+s=1/r
+p=s*h
 print(p)
